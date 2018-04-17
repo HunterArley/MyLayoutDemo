@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hunterarley.mylayoutdemo.Test1Activity">
+
+    <!--定义用户名的输入控件-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入注册用户名"
+        android:ems="10"/>
+
+    <!--定义密码的输入控件-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:ems="10"
+        android:inputType="textPassword"/>
+
+    <!--定义再次输入密码的控件-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请再次输入密码"
+        android:ems="10"
+        android:inputType="textPassword"/>
+
+    <!--定义输入邮箱的控件-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的邮箱"
+        android:ems="10"
+        android:inputType="textEmailAddress"/>
+
+    <!--定义输入手机号码的控件-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入您的手机"
+        android:ems="10"
+        android:inputType="phone"/>
+
+    <!--定义注册按钮控件-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="注册"/>
+
+</LinearLayout>
