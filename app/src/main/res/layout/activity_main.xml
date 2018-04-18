@@ -35,4 +35,11 @@
         android:padding="3dp"
         android:text="示例4" />
 
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:text="示例5" />
+
 </LinearLayout>
